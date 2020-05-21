@@ -1,0 +1,5 @@
+[webservers]
+40.121.133.105 ansible_user=clientUser
+
+[dbservers]
+40.71.223.150 ansible_user=ubuntu

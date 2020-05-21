@@ -1,0 +1,13 @@
+--- 
+
+- hosts: webservers
+  become: yes
+
+  roles:
+  - webservers
+
+- hosts: dbservers
+  become: yes
+
+  roles:
+  - dbservers
